@@ -8,20 +8,14 @@ const numbers = document.querySelectorAll(".number")
 
 numbers.forEach((number) => {
     number.addEventListener("click", (event) => {
-        console.log(event.target.value)
+        inputNumber(event.target.value)
+        updateScreen(currentNumber)
     })
 })
 
 let prevNumber = ''
 let calculationOperator = ''
 let currentNumber = '0'
-
-numbers.forEach((number) => {
-    number.addEventListener("click", (event) => {
-        inputNumber(event.target.value)
-        updateScreen(currentNumber)
-    })
-})
 
 const inputNumber = (number) => {
     if (currentNumber === '0') {
