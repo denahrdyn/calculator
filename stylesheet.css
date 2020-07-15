@@ -1,7 +1,19 @@
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(bg.jpg);
+}
+
+.container {
+    text-align: center;
+    width: 420px;
+    margin: 40px auto;
+    padding: 5px 0;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .calculator {
     text-align: center;
     margin: 0 auto;
-    padding-top: 200px;
     width: 400px;
 }
 
