@@ -90,7 +90,7 @@ decimal.addEventListener('click', (event) => {
     updateScreen(currentNumber)
 })
 
-const inputDecimal = (dot) => {
+inputDecimal = (dot) => {
     if(currentNumber.includes('.')) {
         return
     }
